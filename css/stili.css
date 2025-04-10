@@ -1,16 +1,16 @@
 /* Reset impostazioni del browser */
 :root {
-    --primary-color-nav: #38a459;
+    --primary-color-nav: #FF9966;
     --primary-color-text-navbar: white;
-    --primary-color-text: white;
+    --primary-color-text: rgb(8, 8, 121);
     --primary-color-border: #216937;
-    --primary-color-background-html: 	#216937;
-    --primary-color-background-header: 	#216937;
-    --primary-color-background-body: linear-gradient(90deg, #1e5f31 5%, 	#318f4f 35%, 	#48cb70 100%);
-    --primary-color-background-footer: linear-gradient(90deg,  #1e5f31 5%, 	#318f4f 35%, 	#48cb70 100%);
-    --primary-color-background-container: 	#7fc995;
-    --primary-color-background-border: #216937;
-    --primary-color-container-border: #216937;
+    --primary-color-background-html: 	white;
+    --primary-color-background-header: 	#FFE5B8;
+    --primary-color-background-body: linear-gradient(#FFF3D6, #FFF3D9);
+    --primary-color-background-footer: linear-gradient(#FFF3D9, #e9c46d);
+    --primary-color-background-container: 	#FFFFCC;
+    --primary-color-background-border: rgb(0, 217, 255);
+    --primary-color-container-border: ##1B3280;
     --primary-font:  font-family: verdana;
     --primary-fontsize-h1: 44pt;
     --primary-font-size-h3: 18pt;
