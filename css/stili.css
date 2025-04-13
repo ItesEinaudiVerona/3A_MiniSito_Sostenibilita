@@ -1,14 +1,16 @@
 /* Reset impostazioni del browser */
 :root {
-    --primary-color-nav: #FF9966;
+    --primary-color-nav: #006400;
     --primary-color-text-navbar: white;
-    --primary-color-text: rgb(8, 8, 121);
+    --primary-color-text: black;
+    --primary-color-text-h1-h3: white;
+    --primary-color-text-footer: white;
     --primary-color-border: #216937;
     --primary-color-background-html: 	white;
-    --primary-color-background-header: 	#FFE5B8;
-    --primary-color-background-body: linear-gradient(#FFF3D6, #FFF3D9);
-    --primary-color-background-footer: linear-gradient(#FFF3D9, #e9c46d);
-    --primary-color-background-container: 	#FFFFCC;
+    --primary-color-background-header: 	#018801;
+    --primary-color-background-body: linear-gradient(#a4c993, #216937);
+    --primary-color-background-footer: linear-gradient(#216937, #018801);
+    --primary-color-background-container: 	#d4d487;
     --primary-color-background-border: rgb(0, 217, 255);
     --primary-color-container-border: ##1B3280;
     --primary-font:  font-family: verdana;
@@ -54,7 +56,7 @@ html {
     /*background-color: var(--primary-color-background-html);*/
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../immagini/Sfondo_HTML_sostenibilità_2.png);
+    background-image: url(../immagini/SfondoPaginaHTML.jpg);
 
 }
 
@@ -121,7 +123,7 @@ h1 {
     margin-top: 3px;
     margin-left: auto;
     margin-right: auto;
-    color: var(--primary-color-text);
+    color: var(--primary-color-text-h1-h3);
 }
 
 #Container_primogruppo,
@@ -153,7 +155,7 @@ h3 {
     margin-top: 25px;
     padding: 0;
     text-align: center;
-    color: var(--primary-color-text);
+    color: var(--primary-color-text-h1-h3);
     font-size: var(--primary-font-size-h3);
 }
 
@@ -290,7 +292,7 @@ footer {
     justify-content: space-around;
     font-family: var(--primary-font-family-footer);
     font-size: var(--primary-font-size-footer);
-    color: var(--primary-color-text);
+    color: var(--primary-color-text-footer);
     margin-bottom: 1%;
     padding-bottom: 1%;
 }
