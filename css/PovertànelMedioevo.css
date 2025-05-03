@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+}
+footer {
+    width: 100%;
+    height: 250px;
+    background: var(--primary-color-background-footer);
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--primary-font-family-footer);
+    font-size: var(--primary-font-size-footer);
+    color: var(--primary-color-text);
+}
+
+footer div {
+    width: 25%;
+
+}
+
+footer #autori {
+    text-align: left;
+    margin-top: 3%;
+}
+
+footer #contatti {
+    text-align: center;
+    margin-top: 3%;
+}
+
+footer #indirizzo {
+
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+}
+
+footer #indirizzo img {
+
+    height: 90%;
+}
+
+footer #indirizzo #indirizzo_descrizione {
+    width: 50%;
+    margin-top: 13%;
+}
+img{
+    width: 300px;
+    height: auto;
+}
+p{
+    text-align: center;
+}
+

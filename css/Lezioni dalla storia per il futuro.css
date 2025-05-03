@@ -146,16 +146,6 @@ h1 {
     border: solid 1px var(--primary-color-container-border);
 }
 
-
-
-#primo_articolo,
-#altri_articoli {
-
-    display: inline-flex;
-    justify-content: center;
-}
-
-
 h3 {
     margin: 0;
     margin-top: 25px;
@@ -166,13 +156,16 @@ h3 {
 }
 
 #primo_articolo {
+    width: 100%;
     margin-top: 1%;
+    display: inline-block;
+    text-align: center;
+   
 }
 
 #primo_articolo figure {
-    width: 35%;
-    text-align: center;
     color: var(--primary-color-text);
+    margin: 0 auto;
 
 }
 
@@ -183,46 +176,27 @@ h3 {
 
 
 #primo_articolo .descrizionePrimoArticolo {
-    width: 32%;
+    width: 80%;
     padding: 1%;
     color: var(--primary-color-text);
     font: var(--primary-font);
     font-size: var(--primary-size-text);
-    text-align: justify;
-    position: relative;
-    
+    text-align: center;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-/* #Container_quintogruppo */ #primo_articolo .descrizionePrimoArticolo img {
-    
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    top: 40%;
-    left: 0;
-    right: 0;
-    margin: 25% auto;
-}
-/*
 
-#primo_articolo .descrizionePrimoArticolo img {
+/* #Container_quintogruppo */ 
 
-    width: 100%;
-    
-    position: absolute;
-    bottom: 0;
-    top: 40%;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-*/
+
 
 #primo_articolo figure .ImgPrimoGruppo {
-    width: 100%;
-    display: block;
+    width: 100%;    
     margin: 10px auto;
-    text-align: center;
+   
+       
 }
 
 
