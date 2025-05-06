@@ -118,10 +118,24 @@ nav .indice li a {
 }   
 
 
-a:visited {
-
+a:link {
     color: inherit;
-}
+  }
+  
+ 
+  a:visited {
+    color: inherit;
+  }
+  
+ 
+  a:hover {
+    color: inherit;
+  }
+  
+ 
+  a:active {
+    color: inherit;
+  }
 
 
 
